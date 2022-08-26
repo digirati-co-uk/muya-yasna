@@ -1,0 +1,24 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DisplaySquare } from './components/DisplaySquare';
+import { SquaresContainer } from './components/SquaresContainer';
+import { theme } from '../theme';
+
+<Meta title="Theme/Shadows" />
+
+# Shadows
+
+Shadows are accessed through the theme, e.g. `theme.shadows.topDown1`.
+
+All squares below have the same background color, `theme.colors.brand.white`:
+
+<SquaresContainer>
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.topDown1} name="topDown1" />
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.topDown2} name="topDown2" />
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.topDown3} name="topDown3" />
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.topDown4} name="topDown4" />
+</SquaresContainer>
+
+<SquaresContainer>
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.wide1} name="wide1" />
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.wide2} name="wide2" />
+</SquaresContainer>

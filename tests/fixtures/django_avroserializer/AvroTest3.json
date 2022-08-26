@@ -1,0 +1,1 @@
+[{"model": "django_avroserializer.avrotest3", "pk": 1, "fields": {"label": "at3", "fk_avrotest": 0}}]

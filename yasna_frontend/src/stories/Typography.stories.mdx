@@ -1,0 +1,105 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import Typography, { Subtitle1, Subtitle2, BodySmall, Button, Caption, Overline } from '../theme/Typography';
+
+<Meta
+  title="Theme/Typography"
+  component="Typography"
+  decorators={[
+    Story => (
+      <>
+        <Typography />
+        <Story />
+      </>
+    ),
+  ]}
+/>
+
+# Typography
+
+Fonts are loaded from the Google Fonts CDN in `public/index.html`.
+
+## Headings
+
+These are globally assigned to `h1`, `h2`, etc. by default.
+
+<Canvas>
+  <Story name="h1">
+    <h1>H1/Work Sans/Light/96px</h1>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="h2">
+    <h2>H2/Work Sans/Light/60px</h2>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="h3">
+    <h3>H3/Work Sans/Regular/48px</h3>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="h4">
+    <h4>H4/Work Sans/Regular/34px</h4>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="h5">
+    <h5>H5/Work Sans/Regular/24px</h5>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="h6">
+    <h6>H6/Work Sans/Medium/20px</h6>
+  </Story>
+</Canvas>
+
+## Body
+
+<Canvas>
+  <Story name="Subtitle 1">
+    <span css={Subtitle1}>Subtitle 1/Roboto/Regular/16px</span>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Subtitle 2">
+    <span css={Subtitle2}>Subtitle 2/Roboto/Medium/14px</span>
+  </Story>
+</Canvas>
+
+"Body 1" is the default, applied to all text inside the `<body>`. Other styles can be applied to elements manually.
+
+<Canvas>
+  <Story name="Body 1">
+    <p>Body 1/Roboto/Regular/16px</p>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Body 2">
+    <p css={BodySmall}>Body 2/Roboto/Regular/14px</p>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Button">
+    <span css={Button}>Button/Roboto/Medium/14px</span>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Caption">
+    <span css={Caption}>Caption/Roboto/Regular/12px</span>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Overline">
+    <span css={Overline}>Overline/Roboto/Regular/10px</span>
+  </Story>
+</Canvas>

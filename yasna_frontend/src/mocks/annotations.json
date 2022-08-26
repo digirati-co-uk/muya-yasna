@@ -1,0 +1,27 @@
+{
+  "next": "api.com/annotation/range/?from_ms=3000",
+  "next_seconds": 3.0,
+  "start_seconds": 0.0,
+  "annotation_sets": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "annotations": {
+        "Chapter": "Y.0",
+        "Ritual_Part": "Yasna",
+        "Stanza_Ref": "Y.0.1",
+        "Stanza_SubDiv": "Y.0.1.1"
+      }
+    },
+    {
+      "start_seconds": 2.0,
+      "end_seconds": 3.0,
+      "annotations": {
+        "Chapter": "Y.0",
+        "Ritual_Part": "Yasna",
+        "Stanza_Ref": "Y.0.1",
+        "Stanza_SubDiv": "Y.0.1.2"
+      }
+    }
+  ]
+}

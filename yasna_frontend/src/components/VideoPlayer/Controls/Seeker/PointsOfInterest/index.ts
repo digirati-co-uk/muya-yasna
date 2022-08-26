@@ -1,0 +1,1 @@
+export { PointsOfInterest } from './PointsOfInterest';

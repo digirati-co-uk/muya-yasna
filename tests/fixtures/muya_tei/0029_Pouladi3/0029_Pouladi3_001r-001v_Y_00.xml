@@ -1,0 +1,67 @@
+<?xml  version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="document" n="29S">A Transcription of the Yasna in 29</title>
+				
+				
+				
+				<respStmt>
+					<resp>Data entry and TEI markup by</resp>
+					<name>Almut Hintze</name>
+				</respStmt>
+				<funder>The European Research Council</funder>
+				<principal>Almut Hintze</principal>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.1">
+	            Version 0.1, Last modified, <date>2020-4-20</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>
+					<name type="org">Corpus Avesticum: Digital Yasna (CoAv)</name>
+					<name type="org">School of Oriental and African Studies (SOAS)</name>
+					<name type="org">University of London (UCL)</name>
+				</distributor>
+				
+				
+				<availability>
+					<p>Attribution 4.0 International (CC BY 4.0) Available for re-use under a creative commons license provided attribution is made to the original creators</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier>
+							<idno>29</idno>
+						</altIdentifier>
+					
+						<altIdentifier>
+							<idno>Pouladi3</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<handDesc>
+							<p>Dinyar Noshirvan Bahramshah Noshirvan Merhaban</p>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+				
+			
+				<listWit>
+					<witness xml:id="firsthand"/>
+					<witness xml:id="secundamanu"/>
+					<witness xml:id="corrector"/>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This transcription was made by the Multimedia Yasna Project.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>This transcription was made using the MUYA OTE.</p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader><text><body><div type="book" n="Y"><pb n="P1r-29S" type="folio"/><lb n="P1rL-29S"/><div type="chapter" n="Y.0" xml:lang="ae"><div type="stanza" n="Y.0.0"><ab type="line" n="Y.0.0.2" xml:lang="ae"><lb n="P1rL-29S"/></ab><ab type="line" n="Y.0.0.4" xml:lang="ae"/><ab type="line" n="Y.0.0.6" xml:lang="ae"><lb n="P1rL-29S"/></ab><ab type="line" n="Y.0.0.8" xml:lang="ae"/><ab type="line" n="Y.0.0.10" xml:lang="ae"><lb n="P1rL-29S"/></ab><ab type="line" n="Y.0.0.12" xml:lang="ae"/><ab type="line" n="Y.0.0.14" xml:lang="ae"/><ab type="line" n="Y.0.0.16" xml:lang="ae"><lb n="P1rL-29S"/></ab></div><div type="stanza" n="Y.0.1"><ab type="line" n="Y.0.1.2" xml:lang="ae"><w>aṣ̌əm</w><pc>P+.</pc><w>vohī</w></ab><ab type="ritualdirection" n="Y.0.1.1" xml:lang="fa"><w><hi rend="rubric">yek</hi></w><w><hi rend="rubric">guftan</hi></w><w><hi rend="rubric"><unclear reason="faded_ink">da</unclear>st</hi></w><w><hi rend="rubric">fa</hi></w><w><hi rend="rubric">pāyā<unclear reason="faded_ink">v</unclear></hi></w><w><hi rend="rubric">kardan</hi></w><lb n="P1rL-29S"/></ab><ab type="line" n="Y.0.1.4" xml:lang="ae"><w>aṣ̌əm</w><pc>P+.</pc><w>vohī</w><pc>P+.</pc></ab><ab type="ritualdirection" n="Y.0.1.2" xml:lang="fa"><w><hi rend="rubric">se</hi></w><w><hi rend="rubric">3</hi></w><w><hi rend="rubric">bār</hi></w></ab><ab type="line" n="Y.0.1.6" xml:lang="ae"><w>frauuarāne</w><pc>P+.</pc><w>maz<lb n="P1rL-29S" break="no"/>daiiasnō</w><pc>P+.</pc><w>zraϑuštrǝš</w><pc>P+.</pc><gap reason="abbreviatedText" unit="structural_line" extent="rest"/></ab><ab type="line" n="Y.0.1.8" xml:lang="ae"><w>hāuuanǝ̄e</w></ab><ab type="line" n="Y.0.1.10" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/><lb n="P1rL-29S"/></ab><ab type="ritualdirection" n="Y.0.1.3" xml:lang="pal-Phlv"><w><hi rend="rubric">D̂</hi></w></ab><ab type="line" n="Y.0.1.12" xml:lang="ae"><w>sāuuaŋhǝe</w><pc>P+.</pc><gap reason="abbreviatedText" unit="structural_line" extent="rest"/></ab><ab type="line" n="Y.0.1.14" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab><ab type="ritualdirection" n="Y.0.1.4" xml:lang="pal-Phlv"><w><hi rend="rubric">ʿD̂</hi></w></ab></div><div type="stanza" n="Y.0.2"><ab type="ritualdirection" n="Y.0.2.1" xml:lang="fa"><w><hi rend="rubric">fa</hi></w><w><hi rend="rubric">mān-e</hi></w><w><hi rend="rubric">atašān</hi></w><w><hi rend="rubric">bid</hi></w></ab><ab type="line" n="Y.0.2.2" xml:lang="ae"><w>āϑr<unclear reason="damage_to_page">ō</unclear></w><lb n="P1rL-29S"/><w>ahurahe</w><pc>:</pc><w>mazdā̊</w><pc>P+.</pc><w>puϑra</w><pc>P+.</pc></ab><ab type="line" n="Y.0.2.4" xml:lang="ae"><w>tauu<unclear reason="damage_to_page">a</unclear></w><lb n="P1rL-29S"/><w>tauua</w><pc>P+.</pc><w>ātarš</w><pc>P+.</pc><w>puϑra</w><pc>P+.</pc><w>ahur<gap reason="lacuna" unit="char" quantity="3"/></w><lb n="P1rL-29S"/><w>mazdā</w><pc>P+.</pc><w>xšnaō.ϑra</w><pc>P+.</pc></ab><ab type="line" n="Y.0.2.6" xml:lang="ae"><w><choice><expan>yasnāica</expan><abbr type="suspension">y</abbr></choice></w><pc>P+.</pc><w><choice><expan>vahmāica</expan><abbr type="suspension">v</abbr></choice></w><w><choice><expan>xšnaōϑrāica</expan><abbr type="suspension">x</abbr></choice></w><w><gap reason="lacuna" unit="word" quantity="1"/></w><pb n="P1v-29S" type="folio"/><lb n="P1vL-29S"/></ab><ab type="ritualdirection" n="Y.0.2.2" xml:lang="fa"><w><hi rend="rubric">fa</hi></w><w><hi rend="rubric">mān-e</hi></w><w><hi rend="rubric">wehān</hi></w><w><hi rend="rubric">bid</hi></w></ab><ab type="line" n="Y.0.2.8" xml:lang="ae"><w>tauua</w><pc>P+.</pc><w>āϑarš</w><pc>P+.</pc><w>puϑra</w><pc>P+.</pc><w>ahurahe</w><lb n="P1vL-29S"/><w>mazdā</w><pc>P+.</pc><w><choice><expan>xšnaōϑra</expan><abbr type="suspension">x</abbr></choice></w><pc>P+006</pc></ab><ab type="line" n="Y.0.2.10" xml:lang="ae"><w><choice><expan>yasnāica</expan><abbr type="suspension">y</abbr></choice></w><pc>P+006</pc><w><choice><expan>vahmāica</expan><abbr type="suspension">v</abbr></choice></w><pc>P+006</pc><w><choice><expan>xšnaōϑrāica</expan><abbr type="suspension">x</abbr></choice></w><pc>P+006</pc><w><choice><expan>frasastaiiaēca</expan><abbr type="suspension">f</abbr></choice></w><pc>P+006</pc><space unit="char" quantity="3"/></ab></div><div type="stanza" n="Y.0.3"><ab type="line" n="Y.0.3.2" xml:lang="ae"><w>yaϑā</w><pc>P+.</pc><w>ahī</w><lb n="P1vL-29S"/><w>vairiiō</w></ab><ab type="line" n="Y.0.3.4" xml:lang="ae"><w>zaōtā</w></ab><ab type="line" n="Y.0.3.6" xml:lang="ae"><w>frā.maē</w><pc>P+.</pc><w>mrītē</w></ab><ab type="line" n="Y.0.3.8" xml:lang="ae"><w>aϑ<lb n="P1vL-29S" break="no"/>ā</w><pc>P+.</pc><w>ratuš</w><pc>P+.</pc><gap reason="abbreviatedText" unit="structural_line" extent="rest"/></ab><ab type="line" n="Y.0.3.2" xml:lang="ae"><w>yaϑā</w><pc>P+.</pc><w>ahī</w><pc>P+.</pc><w>vairiiō</w><pc>P+.</pc><lb n="P1vL-29S"/></ab><ab type="line" n="Y.0.3.4" xml:lang="ae"><w>yō</w><pc>P+.</pc><w>zaōϑā</w><pc>P+.</pc></ab><ab type="line" n="Y.0.3.6" xml:lang="ae"><w>frāmaē</w><pc>P+.</pc><w>mrītē</w><pc>P+.</pc></ab><ab type="line" n="Y.0.3.8" xml:lang="ae"><w>aϑā</w><lb n="P1vL-29S"/><w>raϑāš</w><gap reason="abbreviatedText" unit="structural_line" extent="rest"/></ab><ab type="line" n="Y.0.3.10" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab><ab type="ritualdirection" n="Y.0.3.1" xml:lang="fa"><w><hi rend="rubric">tā</hi></w><w><hi rend="rubric">sar</hi></w></ab><ab type="line" n="Y.0.3.12" xml:lang="ae"><w>aṣ̌əm</w><pc>P+.</pc><w>vohī</w></ab><ab type="ritualdirection" n="Y.0.3.2" xml:lang="fa"><w><hi rend="rubric"><unclear reason="faded_ink">se</unclear></hi></w><lb n="P1vL-29S"/></ab><ab type="line" n="Y.0.3.14" xml:lang="ae"><w>yaϑā</w><w>ahī</w><pc>P+.</pc><w>vairiiō</w></ab><ab type="ritualdirection" n="Y.0.3.2" xml:lang="fa"><w><hi rend="rubric">do</hi></w><lb n="P1vL-29S"/><space unit="line" quantity="1"/><lb n="P1vL-29S"/></ab></div><div type="stanza" n="Y.0.4"><ab type="line" n="Y.0.4.2" xml:lang="ae"><w>frastuiiē</w><pc>P+.</pc><w>humatōibiiascā</w><pc>P+.</pc><w>hī<lb n="P1vL-29S" break="no"/>xtōibiiascā</w><pc>P+.</pc><w>huuarǝštōibiiasc<lb n="P1vL-29S" break="no"/>ā</w></ab><ab type="line" n="Y.0.4.4" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab><ab type="line" n="Y.0.4.6" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab><ab type="line" n="Y.0.4.8" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab></div><div type="stanza" n="Y.0.5"><ab type="line" n="Y.0.5.2" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab><ab type="line" n="Y.0.5.4" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab><ab type="line" n="Y.0.5.6" xml:lang="ae"><gap reason="abbreviatedText" unit="structural_line" extent="all"/></ab></div><div type="stanza" n="Y.0.6"><ab type="ritualdirection" n="Y.0.6.1" xml:lang="fa"><w><hi rend="rubric">tā</hi></w><w><hi rend="rubric">sar</hi></w><w><hi rend="rubric">guftan</hi></w><w><hi rend="rubric">tā</hi></w></ab><ab type="line" n="Y.0.6.2" xml:lang="ae"><w>stōmī</w><pc>P+.</pc><w>aṣ̌əm</w><pc/></ab></div></div></div></body></text></TEI>

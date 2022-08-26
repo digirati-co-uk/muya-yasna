@@ -1,0 +1,311 @@
+<?xml  version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="document" n="451S">A Transcription of the Yasna in 451S</title>
+				
+				<respStmt>
+					<resp>Data entry and TEI markup by</resp>
+					<name>Stefano Damanins</name>
+				</respStmt>
+				<funder>The European Research Council</funder>
+				<principal>Almut Hintze</principal>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.1">
+	            Version 0.1, Last modified, <date>2020-12-16</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>
+					<name type="org">Corpus Avesticum: Digital Yasna (CoAv)</name>
+					<name type="org">School of Oriental and African Studies (SOAS)</name>
+					<name type="org">University of London (UCL)</name>
+				</distributor>
+				
+				<availability>
+					<p>Attribution 4.0 International (CC BY 4.0) Available for re-use under a creative commons license provided attribution is made to the original creators</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier>
+							<idno>451S</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			
+				<listWit>
+					<witness xml:id="firsthand"/>
+					<witness xml:id="corrector"/>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This transcription was made by the Multimedia Yasna Project.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>This transcription was made using the MUYA OTE.</p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="P519r-451S" type="folio"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<lb n="P519rL-451S"/>
+			<div type="book" n="Y">
+				<div type="chapter" n="Y.71">
+					<div type="stanza" n="Y.71.11">
+						<ab type="line" n="Y.71.11.2">
+							<w>vīspaēca</w>
+							<pc>P+.</pc>
+							<w>aētē</w>
+							<pc>P+.</pc>
+							<w>aṣ̌iš.h<lb n="P519rL-451S" break="no"/>āgǝt̰</w>
+							<pc>P+.</pc>
+							<w>ārmaitiš.hāgǝt̰</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.4">
+							<w>ẏazam<lb n="P519rL-451S" break="no"/>adaēca</w>
+							<pc>P+.</pc>
+							<w>nipātaiiaēca</w>
+							<pc>P+.</pc>
+							<w>naṣ̌aŋh<lb n="P519rL-451S" break="no"/>arǝtaiiaēca</w>
+							<pc>P+.</pc>
+							<w>harǝϑrāica</w>
+							<pc>P+.</pc>
+							<w>aiβ<lb n="P519rL-451S" break="no"/>iiāxštrāica</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.6">
+							<w>hauuaŋhǝmē</w>
+							<pc>P+.</pc>
+							<w>buii<lb n="P519rL-451S" break="no"/>ata</w>
+							<pc>P+.</pc>
+							<gap reason="editorial" unit="line" quantity="0" xml:lang="pal-Phlv"/>
+							<pb n="P519v-451S" type="folio"/>
+							<lb n="P519vL-451S"/>
+							<gap reason="editorial" unit="line" quantity="2" xml:lang="pal-Phlv"/>
+							<lb n="P519vL-451S"/>
+						</ab>
+						<ab type="line" n="Y.71.11.8">
+							<w>gāϑābiiō</w>
+							<pc>P+.</pc>
+							<w>spǝṇtābiiō</w>
+							<pc>P+.</pc>
+							<w>ratuxašϑ<lb n="P519vL-451S" break="no"/>rābiiō</w>
+							<pc>P+.</pc>
+							<w>aṣ̌aonibiiō</w>
+							<pc>P+.</pc>
+							<w>zbaiieme</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.10">
+							<w>ẏ<lb n="P519vL-451S" break="no"/>azamadaēca</w>
+							<pc>P+.</pc>
+							<w>nipātaiiēca</w>
+							<pc>P+.</pc>
+							<w>niṣ̌<lb n="P519vL-451S" break="no"/>aŋharǝtaiiaēca</w>
+							<pc>P+.</pc>
+							<w>harǝϑrāica</w>
+							<pc>P+.</pc>
+							<lb n="P519vL-451S"/>
+							<w>aiβiiāxštrāica</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.12">
+							<w>hauuaŋhǝm</w>
+							<pc>P+.</pc>
+							<lb n="P519vL-451S"/>
+							<w>mē</w>
+							<pc>P+.</pc>
+							<w>buiiata</w>
+							<pc>P+.</pc>
+							<gap reason="editorial" unit="line" quantity="3" xml:lang="pal-Phlv"/>
+							<lb n="P519vL-451S"/>
+						</ab>
+						<ab type="line" n="Y.71.11.8">
+							<w>gāϑābiiō</w>
+							<pc>P+.</pc>
+							<w>spǝ<lb n="P519vL-451S" break="no"/>ṇtābiiō</w>
+							<pc>P+.</pc>
+							<w>ratuxšϑrābiiō</w>
+							<pc>P+.</pc>
+							<w>aṣ̌ao<pb n="P520r-451S" type="folio" break="no"/>
+								<lb n="P520rL-451S"/>nibiiō</w>
+							<pc>P+.</pc>
+							<w>zbaiiēmi</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.10">
+							<w>ẏazamadaēca</w>
+							<pc>P+.</pc>
+							<lb n="P520rL-451S"/>
+							<app>
+								<rdg type="orig" hand="firsthand">
+									<w>nipātaiaca</w>
+								</rdg>
+								<rdg type="corr" hand="corrector">
+									<seg type="line" subtype="above" n="@P520rL-451S">
+										<w>nipātaiiaēca</w>
+									</seg>
+								</rdg>
+							</app>
+							<pc>P+.</pc>
+							<w>nišaŋharǝtaiiaēca</w>
+							<pc>P+.</pc>
+							<lb n="P520rL-451S"/>
+							<w>harǝϑrāica</w>
+							<pc>P+.</pc>
+							<w>aiβiiāxštrāica</w>
+							<pc>P+.</pc>
+							<gap reason="editorial" unit="line" quantity="3" xml:lang="pal-Phlv"/>
+							<lb n="P520rL-451S"/>
+						</ab>
+						<ab type="line" n="Y.71.11.12">
+							<w>hauuaŋhǝm</w>
+							<pc>P+.</pc>
+							<w>mē</w>
+							<pc>P+.</pc>
+							<w>buiiata</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.14">
+							<w>māuuōiia</w>
+							<pc>P+.</pc>
+							<lb n="P520rL-451S"/>
+							<w>hauuāi</w>
+							<pc>P+.</pc>
+							<w>urune</w>
+							<pc>P+.</pc>
+							<w>zbaiiaēmē</w>
+							<pc>P+.</pc>
+						</ab>
+						<ab type="line" n="Y.71.11.16">
+							<w>ẏaza<lb n="P520rL-451S" break="no"/>madaēca</w>
+							<pc>P+.</pc>
+							<w>nipātaiiaēca</w>
+							<pc>P+.</pc>
+							<w>nišaŋ<lb n="P520rL-451S" break="no"/>harǝtaiiaēca</w>
+							<pc>P+.</pc>
+							<w>harǝϑrāica</w>
+							<pc>P+.</pc>
+							<w>aiβ<lb n="P520rL-451S" break="no"/>iiā.xštrāica</w>
+							<pc>P+.</pc>
+							<gap reason="editorial" unit="line" quantity="1" xml:lang="pal-Phlv"/>
+							<lb n="P520rL-451S"/>
+							<pb n="P520v-451S" type="folio"/>
+							<lb n="P520vL-451S"/>
+						</ab>
+					</div>
+					<div type="stanza" n="Y.71.12">
+						<ab type="line" n="Y.71.12.2">
+							<w>haouruuatātǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌auuanǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌a<lb n="P520vL-451S" break="no"/>he</w>
+							<pc>P+.</pc>
+							<w>ratūm</w>
+							<pc>P+.</pc>
+							<w>
+								<choice>
+									<expan>ẏazamaide</expan>
+									<abbr type="suspension">ẏ</abbr>
+								</choice>
+							</w>
+							<pc>P+002</pc>
+						</ab>
+						<ab type="line" n="Y.71.12.4">
+							<w>amǝrǝtātǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌a<lb n="P520vL-451S" break="no"/>uuanǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌ahe</w>
+							<pc>P+.</pc>
+							<w>ratūm</w>
+							<pc>P+.</pc>
+							<w>
+								<choice>
+									<expan>ẏazamaide</expan>
+									<abbr type="suspension">ẏ</abbr>
+								</choice>
+							</w>
+							<pc>P+002</pc>
+							<gap reason="editorial" unit="line" quantity="1" xml:lang="pal-Phlv"/>
+							<lb n="P520vL-451S"/>
+						</ab>
+						<ab type="line" n="Y.71.12.6">
+							<app>
+								<rdg type="orig" hand="firsthand">
+									<w>ahāurī<lb n="P520vL-451S" break="no"/>m</w>
+								</rdg>
+								<rdg type="corr" hand="corrector" rend="strikethrough">
+									<seg type="line" subtype="ontheline" n="@P520vL-451S">
+										<w>ahurī<lb break="no"/>m</w>
+									</seg>
+								</rdg>
+							</app>
+							<pc>P+.</pc>
+							<w>frasnǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌auuanǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌ahe</w>
+							<pc>P+.</pc>
+							<lb n="P520vL-451S"/>
+							<w>ratūm</w>
+							<pc>P+.</pc>
+							<w>
+								<choice>
+									<expan>ẏazamaide</expan>
+									<abbr type="suspension">ẏ</abbr>
+								</choice>
+							</w>
+							<pc>P+002</pc>
+							<gap reason="editorial" unit="line" quantity="1" xml:lang="pal-Phlv"/>
+							<lb n="P520vL-451S"/>
+						</ab>
+						<ab type="line" n="Y.71.12.8">
+							<w>āhuirīm</w>
+							<pc>P+.</pc>
+							<w>t̰kaēšǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌auua<lb n="P520vL-451S" break="no"/>nǝm</w>
+							<pc>P+.</pc>
+							<w>aṣ̌ahe</w>
+							<pc>P+.</pc>
+							<w>ratūm</w>
+							<pc>P+.</pc>
+							<w>
+								<choice>
+									<expan>ẏazamaide</expan>
+									<abbr type="suspension">ẏ</abbr>
+								</choice>
+							</w>
+							<pc>P+002</pc>
+							<gap reason="editorial" unit="line" quantity="1" xml:lang="pal-Phlv"/>
+							<lb n="P520vL-451S"/>
+						</ab>
+						<ab type="line" n="Y.71.12.10">
+							<w>ẏasnǝm</w>
+							<pc>P+.</pc>
+						</ab>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

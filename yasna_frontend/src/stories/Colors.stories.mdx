@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DisplaySquare } from './components/DisplaySquare';
+import { SquaresContainer } from './components/SquaresContainer';
+import { theme } from '../theme';
+
+<Meta title="Theme/Colors" />
+
+# Colors
+
+Colors (no 'u'!) are accessed through the theme and category, e.g. `theme.colors.brand.orangeRed`:
+
+## Brand
+
+<SquaresContainer>
+  <DisplaySquare color={theme.colors.brand.orangeRed} name="brand.orangeRed" />
+  <DisplaySquare color={theme.colors.brand.darkOrangeRed} name="brand.darkOrangeRed" />
+  <DisplaySquare color={theme.colors.brand.orangeYellow} name="brand.orangeYellow" />
+  <DisplaySquare color={theme.colors.brand.yellow} name="brand.yellow" />
+</SquaresContainer>
+<SquaresContainer>
+  <DisplaySquare color={theme.colors.brand.black} name="brand.black" />
+  <DisplaySquare color={theme.colors.brand.charcoal} name="brand.charcoal" />
+  <DisplaySquare color={theme.colors.brand.white} shadow={theme.shadows.topDown4} name="brand.white" />
+</SquaresContainer>
+
+## Grey
+
+<SquaresContainer>
+  <DisplaySquare color={theme.colors.grey.darkGrey1} name="grey.darkGrey1" />
+  <DisplaySquare color={theme.colors.grey.darkGrey2} name="grey.darkGrey2" />
+  <DisplaySquare color={theme.colors.grey.lightGrey1} name="grey.lightGrey1" />
+  <DisplaySquare color={theme.colors.grey.lightGrey2} name="grey.lightGrey2" />
+</SquaresContainer>
+
+## Secondary
+
+<SquaresContainer>
+  <DisplaySquare color={theme.colors.secondary.success} name="secondary.success" />
+  <DisplaySquare color={theme.colors.secondary.information} name="secondary.information" />
+  <DisplaySquare color={theme.colors.secondary.warning} name="secondary.warning" />
+  <DisplaySquare color={theme.colors.secondary.danger} name="secondary.danger" />
+</SquaresContainer>

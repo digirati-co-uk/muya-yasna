@@ -1,0 +1,1 @@
+export { MuyaYasnaLogo } from './MuyaYasnaLogo';

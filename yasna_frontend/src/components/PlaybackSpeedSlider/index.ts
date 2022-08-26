@@ -1,0 +1,1 @@
+export { PlaybackSpeedSlider } from './PlaybackSpeedSlider';

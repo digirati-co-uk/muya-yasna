@@ -1,0 +1,25 @@
+name: Run Python tests in Docker
+
+on:
+    pull_request:
+        types: [assigned, opened, synchronize, reopened]
+
+        # Branch filter. Only run tests when making a PR to merge to these branches
+        #branches: [develop, main]
+
+
+jobs:
+
+    run-tests:
+
+        runs-on: ubuntu-latest
+        timeout-minutes: 20
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Install pytest requirements
+              working-directory: ./tests/
+              run: pip3 install -r pytest_requirements.txt
+            - name: Run Pytest
+              working-directory: ./tests/
+              run: pytest -vv

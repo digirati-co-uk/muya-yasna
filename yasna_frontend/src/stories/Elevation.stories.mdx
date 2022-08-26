@@ -1,0 +1,39 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import { DisplayRectangle } from './components/DisplayRectangle';
+import { theme } from '../theme';
+
+<Meta title="Theme/Elevation" />
+
+# Elevation
+
+Shadows designed for visual hierarchy and animating interactive elements.
+
+https://material.io/design/environment/elevation.html
+
+## Animation
+
+Elevation can be animated nicely:
+
+<DisplayRectangle
+  color={theme.colors.brand.white}
+  shadow={theme.elevation['01dp']}
+  hover={theme.elevation['16dp']}
+  active={theme.elevation['08dp']}
+  name="normal: elevation['01dp'], hover: elevation['16dp'], active: elevation['08dp']"
+/>
+
+## Levels
+
+Elevation levels are accessed through the theme, e.g. `theme.elevation['06dp']`.
+
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['00dp']} name="elevation['00dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['01dp']} name="elevation['01dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['02dp']} name="elevation['02dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['03dp']} name="elevation['03dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['04dp']} name="elevation['04dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['06dp']} name="elevation['06dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['08dp']} name="elevation['08dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['09dp']} name="elevation['09dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['12dp']} name="elevation['12dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['16dp']} name="elevation['16dp']" />
+<DisplayRectangle color={theme.colors.brand.white} shadow={theme.elevation['24dp']} name="elevation['24dp']" />

@@ -1,0 +1,134 @@
+{
+  "pagination": {
+    "next": null,
+    "previous": null,
+    "totalResults": 8,
+    "totalPages": 1,
+    "page": 1
+  },
+  "results": [
+    {
+      "boxes": [],
+      "annotations": [
+        {
+          "url": "http://muya.ch.digtest.co.uk/api/yasna/annotation/2882",
+          "id": 2882,
+          "type": "Ritual_Part",
+          "label": "Paragnā",
+          "html": "Paragnā"
+        }
+      ]
+    },
+    {
+      "boxes": [],
+      "annotations": [
+        {
+          "url": "http://muya.ch.digtest.co.uk/api/yasna/annotation/1",
+          "id": 1,
+          "type": "Chapter",
+          "label": "Par.0",
+          "html": "Introduction (Par 0)"
+        }
+      ]
+    },
+    {
+      "boxes": [],
+      "annotations": [
+        {
+          "url": "http://muya.ch.digtest.co.uk/api/yasna/annotation/85",
+          "id": 85,
+          "type": "Stanza_Ref",
+          "label": "Par.0.1",
+          "html": "001S00Par"
+        },
+        {
+          "url": "http://muya.ch.digtest.co.uk/api/yasna/annotation/1237",
+          "id": 1237,
+          "type": "Stanza_SubDiv",
+          "label": "Par.0.1.1",
+          "html": "01D001S00Par"
+        }
+      ]
+    },
+    {
+      "boxes": [
+        {
+          "x_centre": 0.69,
+          "y_centre": 0.57,
+          "width": 0.35,
+          "height": 0.85,
+          "yasnaobject": {
+            "id": 0
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "boxes": [
+        {
+          "x_centre": 0.34,
+          "y_centre": 0.53,
+          "width": 0.27,
+          "height": 0.93,
+          "yasnaobject": {
+            "id": 4
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "boxes": [
+        {
+          "x_centre": 0.35,
+          "y_centre": 0.15,
+          "width": 0.1,
+          "height": 0.12,
+          "yasnaobject": {
+            "id": 29
+          }
+        },
+        {
+          "x_centre": 0.78,
+          "y_centre": 0.66,
+          "width": 0.04,
+          "height": 0.09,
+          "yasnaobject": {
+            "id": 9
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "boxes": [
+        {
+          "x_centre": 0.44,
+          "y_centre": 0.53,
+          "width": 0.05,
+          "height": 0.18,
+          "yasnaobject": {
+            "id": 9
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "boxes": [
+        {
+          "x_centre": 0.68,
+          "y_centre": 0.22,
+          "width": 0.11,
+          "height": 0.13,
+          "yasnaobject": {
+            "id": 29
+          }
+        }
+      ],
+      "annotations": []
+    }
+  ],
+  "frame": 1
+}

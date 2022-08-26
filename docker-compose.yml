@@ -1,0 +1,32 @@
+version: '3'
+
+volumes:
+  local_postgres_data: {}
+  local_postgres_data_backups: {}
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: muya-yasna
+    depends_on:
+      - postgres
+    links:
+      - postgres
+    volumes:
+      - ./app:/app
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+      - "5000:5000"
+
+  postgres:
+    hostname: postgres
+    image: postgis/postgis
+    volumes:
+      - local_postgres_data:/var/lib/postgresql/data
+      - local_postgres_data_backups:/backups
+    env_file:
+      - .env

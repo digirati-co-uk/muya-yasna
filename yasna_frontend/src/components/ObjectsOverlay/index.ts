@@ -1,0 +1,1 @@
+export { ObjectsOverlay } from './ObjectsOverlay';

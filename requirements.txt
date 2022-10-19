@@ -26,7 +26,7 @@ lxml==4.7.1
 more_itertools
 natsort
 ordered-set==4.0.2
-psycopg2-binary==2.9.4; python_version >= "3.8" and python_version < "4.0"
+# psycopg2-binary==2.9.4; python_version >= "3.8" and python_version < "4.0"
 psycopg2==2.9.4; python_version >= "3.6"
 pydotplus==2.0.2
 pyexcel==0.6.7

@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install modules
-        working-directory: ./yasna
+        working-directory: ./yasna_frontend
         run: yarn
       - name: Run tests
-        working-directory: ./yasna
+        working-directory: ./yasna_frontend
         run: yarn test

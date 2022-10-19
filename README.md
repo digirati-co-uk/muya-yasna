@@ -116,7 +116,7 @@ The api urls that the yasna FE interacts with are configured in [./yasna_fronten
 If you wish to change the API endpoint to run a local frontend against a remote backend, change the value of `const baseUrl = 'http://localhost:8000/api/yasna';
 ` in `yasna_frontend/src/api/endpoints.ts` to point to the API endpoint URI.
 
-See [Yasna Frontend config](Yasna Frontend config) below for more information.
+See [Yasna Frontend config](#yasna-frontend-config) below for more information.
 
 __N.B. if you change these values you must rebuild the containers above in order to deploy the changes.__
 

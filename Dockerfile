@@ -8,7 +8,7 @@ RUN yarn build
 FROM python:3.8-slim-bullseye
 
 RUN apt-get update
-RUN apt-get install -y gcc g++ python3-psycopg2 libffi-dev nginx postgresql graphviz gettext gdal-bin gnupg gpg libxml2-dev libxslt-dev python3-dev python-dev libsnappy-dev
+RUN apt-get install -y gcc g++ python3-psycopg2 libffi-dev nginx postgresql graphviz gettext gdal-bin gnupg gpg libxml2-dev libxslt-dev python3-dev python-dev libsnappy-dev clang build-essential libpq-dev
 
 ENV PYTHONUNBUFFERED 1
 ENV MIGRATE 0

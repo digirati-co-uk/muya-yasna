@@ -1,0 +1,23 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+MIGRATE=True
+LOAD=True
+TRANSLATE=True
+DJANGO_DEBUG=False
+WAITRESS=False
+DJANGO_ADMIN=USERNAME << changeme
+DJANGO_ADMIN_PASSWORD=PASSWORD << changeme
+DJANGO_ADMIN_EMAIL=EMAIL << changeme
+INIT_SUPERUSER=True
+
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres 
+POSTGRES_PASSWORD=PASSWORD << changeme
+DATABASE_URL=postgres://postgres:PASSWORD@postgres:5432/postgres << changeme (the 
+PASSWORD)
